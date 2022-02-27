@@ -74,7 +74,7 @@ public class Model {
     public String[] GetDriver(String id)
     {
         String[] resultRow = null;
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -103,7 +103,7 @@ public class Model {
     public String[] GetCar(String id)
     {
         String[] resultRow = null;
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -132,7 +132,7 @@ public class Model {
     public String[] ExecuteInsertUpdateDelete()
     {
         String[] resultRow = null;
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -237,7 +237,7 @@ public class Model {
     //just execute without returning anything
     public void Execute_Simple_Sql(List<String> SQLs)
     {
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -267,7 +267,7 @@ public class Model {
         else
             InventoryRow = InventoryCarsRow;
 
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -384,7 +384,7 @@ public class Model {
         result = new ArrayList<>();
         String row[] = GetFunRowCar(fun);
 
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -429,7 +429,7 @@ public class Model {
         result = new ArrayList<>();
         String row[] = GetFunRowDriver(fun);
 
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -521,7 +521,7 @@ public class Model {
 
     public List<List<String>> GetAllDrivers() {
         List<List<String>> result = new ArrayList<>();
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -559,7 +559,7 @@ public class Model {
 
     public List<List<String>> GetAllCars() {
         List<List<String>> result = new ArrayList<>();
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -597,7 +597,7 @@ public class Model {
 
     public List<List<String>> getAllTripsInd(String Id) {
         List<List<String>> result = new ArrayList<>();
-        String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+        String url = "";
         String user = "Elie";
         String pwd = "12345";
         try {
@@ -635,7 +635,7 @@ public class Model {
 
     public String[] GetTrip(String id) {
             String[] resultRow = null;
-            String url = "jdbc:sqlserver://LAPTOP-BU8JH8SR;databaseName=CrazyTaxi";
+            String url = "";
             String user = "Elie";
             String pwd = "12345";
             try {
